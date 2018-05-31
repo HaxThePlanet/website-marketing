@@ -11,12 +11,6 @@ function myFunction() {
 function pageLoaded() {
   console.log("Page loaded...");
 
-  setDynamicWidthOfChildrenDiv('center_slider_div');
-  setDynamicWidthOfChildrenDiv('main_slider_div');
-  setDynamicWidthOfChildrenDiv('second_slider_div');
-
-  closeIntro();
-
   Email.send("chad@btczero.io",
     "chad@btczero.io",
     "This is a subject",
