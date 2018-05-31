@@ -21,6 +21,7 @@ function pageLoaded() {
     "chad@btczero.io",
     "This is a subject",
     "this is the body",
-    {token: "90d093d2-7a9a-4470-bf48-90c02928574e"});
-
+    "smtp25.elasticemail.com",
+    "chad@btczero.io",
+    "582d3abe-b9a7-4601-9851-3e136e19b069");
 }
