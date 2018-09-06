@@ -1,0 +1,181 @@
+.font-icon {
+	font-size: 25px;
+	text-align: center;
+	color: #444444;
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.about_us .inner_container {
+	text-align: center;
+}
+.about_us p br {
+	margin: 0 0 10px;
+}
+
+.wallets .content .slide-icon{
+    width: 55px;
+    height: 55px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+	margin: 0 auto;
+    margin-bottom: 10px;
+    background: #d6b161;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+	text-align: center;
+	overflow:hidden;
+}
+.wallets .content:hover .slide-icon{
+    background: #555;
+}
+.wallets .content .slide-icon .fonticon {
+	font-size: 24px;
+	text-align: center;
+	position: relative;
+	display: block;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.wallets .content .slide-icon .fonticon1 {
+	color: #d6b161;
+	top: -110%;
+	-webkit-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	transform: translateY(100%);
+	display: block;
+}
+.wallets .content .slide-icon .fonticon2 {
+    color: #fff;
+    top: 50%;
+    -webkit-transform: translateY(-150%);
+    -ms-transform: translateY(-150%);
+    transform: translateY(-150%);
+}
+.wallets .content:hover .slide-icon .fonticon1 {
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.wallets .content:hover .slide-icon .fonticon2 {
+	top: 200%;
+}
+#ascrail2000-hr{
+	height: 0px!important;
+}
+.pricing .featured {
+    background-color: #ffffff;
+}
+.pricing .featured .grey {
+    color: #333333;
+}
+.pricing .featured li {
+    color: #555555;
+}
+.pricing .featured .btn {
+    background-color: #323232;
+    color: #ffffff!important;
+}
+
+body.light_skin .pricing .featured {
+    background-color: #323232;
+}
+body.light_skin .pricing .featured .header{
+    color: #cccccc;
+}
+body.light_skin .pricing .featured .grey {
+    color: #ffffff;
+}
+body.light_skin .pricing .featured li {
+    color: #999999;
+}
+body.light_skin .pricing .featured .btn {
+	background-color: #ffffff;
+	color: #323232 !important;
+}
+
+body.light_skin .latest-news .section_header h2 {
+	color:#ffffff;
+}
+.latest-news .txt_container h3 a{
+	color:#ffffff;
+	text-decoration:none;
+}
+.latest-news .txt_container h3 a:hover{
+	color:#d6b161;
+	text-decoration:none;
+}
+.wpcf7-submit.btn {
+    width: 150px;
+    font-size: 13px;
+    line-height: 45px;
+    color: #323232;
+    font-weight: 500;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 0;
+    position: relative;
+    z-index: 2;
+}
+#particles-js {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+}
+.overlay-bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+.navbar-default .brand.text-logo {
+	font-size: 36px;
+	font-weight: 500;
+	text-transform:uppercase;
+	text-decoration:none;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	transition: all .5s ease;
+}
+.fixed_top .brand.text-logo {
+	font-size: 30px;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	transition: all .5s ease;
+}
+.brand.text-logo {
+	color: #d6b161;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	transition: all .5s ease;
+}
+.brand.text-logo:hover {
+	color: #ffffff;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	transition: all .5s ease;
+}
+.pattern-bg .tp-element-background {
+    background-size:inherit!important;
+}
+.footer_top .widget ul li a:hover{
+    color:#d6b161
+}
