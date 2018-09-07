@@ -443,7 +443,7 @@
                                     }else{
                                     revapi1 = tpj("#rev_slider_1_1").show().revolution({
                                     sliderType:"standard",
-                                    jsFileLocation: window.location.origin + "/scripts/",
+                                    jsFileLocation: window.location.href.substring(0, window.location.href.lastIndexOf('/') + 1) + "scripts/",
                                     sliderLayout:"fullscreen",
                                     dottedOverlay:"none",
                                     delay:9000,
@@ -1110,7 +1110,7 @@
         <script type="text/javascript" src="scripts/niceScroll-set.js"></script> -->
 
         <!-- Smooth scrolling effects when navigating between contents -->
-        <!-- <script type="text/javascript" src="scripts/smooth-scroll.min.js"></script>
-        <script type="text/javascript" src="scripts/smoothScroll-set.js"></script> -->
+        <script type="text/javascript" src="scripts/smooth-scroll.min.js"></script>
+        <script type="text/javascript" src="scripts/smoothScroll-set.js"></script>
     </body>
 </html>
