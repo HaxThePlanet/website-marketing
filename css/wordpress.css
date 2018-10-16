@@ -145,7 +145,7 @@ a img.aligncenter {
 .wp-caption p.wp-caption-text {
     font-size: 11px;
     line-height: 17px;
- 
+
 	    margin: 15px 0 0;
     font-size: 14px;
     padding: 0 4px 5px;
@@ -153,7 +153,7 @@ a img.aligncenter {
 .sticky_text {
 	background: #857F79;
 	padding: 10px;
-	color: #FFF; 
+	color: #FFF;
 	padding: 5px 10px;
 	border-radius: 3px;
 	display: inline-block;
@@ -177,7 +177,7 @@ a img.aligncenter {
 	color: #428BCA;
 }
 
-article ul {  
+article ul {
 	list-style-type: inherit;
 	padding: 0 20px;
 }
@@ -218,9 +218,9 @@ h1, h2, h3, h4, h5, h6 {  word-spacing: 0px;}
 	padding-bottom:0px !important;
 	margin-bottom: 0px !important;
 }
-#widget-area #searchform  { 
-	position:relative; 
-	max-height: 50px; 
+#widget-area #searchform  {
+	position:relative;
+	max-height: 50px;
 }
 #widget-area .menu {
 	opacity: 1 !important;
@@ -348,7 +348,7 @@ h1, h2, h3, h4, h5, h6 {  word-spacing: 0px;}
 }
 
 .widget ul {
-	margin:0; 
+	margin:0;
 	padding:0;
 }
 
@@ -356,16 +356,16 @@ h1, h2, h3, h4, h5, h6 {  word-spacing: 0px;}
 	padding: 15px 0 0 15px;
 }
 
-.woo-sidebar .widget { 	
-	margin-bottom: 20px ; 	
-	display: inline-block; 	
+.woo-sidebar .widget {
+	margin-bottom: 20px ;
+	display: inline-block;
 	width: 100%;
 }
 
-.woo-sidebar .widget ul { 	
-	margin:0; 
-	padding:0; 
-	display: inline-block; 
+.woo-sidebar .widget ul {
+	margin:0;
+	padding:0;
+	display: inline-block;
 }
 
 #widget-area .widget ul  >  li {
@@ -386,7 +386,7 @@ h1, h2, h3, h4, h5, h6 {  word-spacing: 0px;}
 	padding:40px 0 0;
 	font-size: 15px;
 	letter-spacing: 0.5px;
-	font-weight: 500; 
+	font-weight: 500;
 }
 #primary iframe{
 	max-width: 100%
@@ -395,7 +395,7 @@ section.page {
 	padding:0;
 }
 .post-meta-first {
-	margin-bottom: 15px; 
+	margin-bottom: 15px;
 	padding-bottom: 0px;
 	font-weight: normal;
 	text-transform: capitalize;
@@ -428,7 +428,7 @@ section.page {
 	margin-bottom: 20px;
 }
 article img {
-	max-width: 100%;  
+	max-width: 100%;
 	height: auto !important;
 }
 .posts article:last-child {
@@ -449,7 +449,7 @@ article img {
 }
 
 p.category {
-	
+
 	padding: 0px 10px 0 0px;
 	display: inline-block;
 	margin: 0px 10px 0px 0;
@@ -458,7 +458,7 @@ p.category {
 	margin: 20px 0;
 	font-size: 12px;
 }
-code {  
+code {
 	white-space: normal;
   }
 .single-post article {
@@ -484,11 +484,11 @@ span.bredcrumb-separator {
 }
 
 .content-container footer span{
-	position: absolute; 
-	top: -60px; 
-	left: 0px; 
-	background: #2EB267; 
-	padding: 5px 10px; 
+	position: absolute;
+	top: -60px;
+	left: 0px;
+	background: #2EB267;
+	padding: 5px 10px;
 	color: #FFF;
 }
 .content-container footer span a{
@@ -496,7 +496,7 @@ span.bredcrumb-separator {
 }
 
 .align-center.edit-buttons {
-	text-align:center; 
+	text-align:center;
 	position:relative;
 }
 .align-center.edit-buttons span a{
@@ -519,12 +519,12 @@ width: 100%;
 }
 
 .pager .next > a i {
-	margin-top: -4px; 
-	vertical-align: middle; 
+	margin-top: -4px;
+	vertical-align: middle;
 	margin-left: 8px;
 }
 .pager .previous > a i {
-	margin-top: -4px; 
+	margin-top: -4px;
 	vertical-align: middle;
 	 margin-right: 8px;
 }
@@ -572,13 +572,13 @@ width: 100%;
     border-radius: 0;
 }
 
-.navbar-custom .navbar-brand img {max-width: 125px; width: 100%; max-height: 50px;}
+.navbar-custom .navbar-brand img {max-width: 250px; width: 100%; max-height: 50px;}
 .navbar-header .navbar-brand {display:table;}
 
-.post-password-form label { 
+.post-password-form label {
 	display:inline
-}  
-.post-password-form input[type=password] {    
+}
+.post-password-form input[type=password] {
 	width: auto;
 	margin: 15px;
 	background: none repeat scroll 0 0 #FFF;
@@ -587,7 +587,7 @@ width: 100%;
 	font-size: 13px;
 	padding: 6px;
 	vertical-align: middle;
-} 
+}
 .post-password-form input[type=submit] {
 	display: inline-block;
 	padding: 6px 12px;
@@ -606,7 +606,7 @@ width: 100%;
 
 .gallery-content ul {padding:0;}
 .gallery-content ul li{list-style:none;}
-  
+
 /*  5.  Articles   */
 
 #respond {
@@ -622,13 +622,13 @@ width: 100%;
 }
 
 article.page {
-	background: inherit !important;  
+	background: inherit !important;
 }
 .search-results article, article.hentry {
 	margin-bottom: 60px;
 }
 .page article.hentry {
-	border-bottom: 0px; 
+	border-bottom: 0px;
 	padding-bottom: 0px;
 	 margin-bottom: 0px;
 
@@ -696,9 +696,9 @@ article.hentry .entry-wrap {
     display: inline-block;
     width: 100%;
 }
-.entry-content div, 
-.entry-content ul, 
-.entry-content ol, 
+.entry-content div,
+.entry-content ul,
+.entry-content ol,
 .entry-content table {
 	margin-bottom:20px;list-style-type: decimal;
 }
@@ -831,7 +831,7 @@ article.hentry .entry-wrap {
     font-size: 14px;
     padding-right: 10px;
 }
-  
+
 
 .entry-meta .edit:before {
     content: '\f044';
@@ -950,9 +950,9 @@ p {
 #share-buttons i{}
 #share-buttons i:hover{color: #d6b161;}
 #share-buttons i{}
-#share-buttons i:hover{color: #d6b161;}	
+#share-buttons i:hover{color: #d6b161;}
 .entry-title a:hover{color: #d6b161;}
-.entry-title a{color: #222222;}	
+.entry-title a{color: #222222;}
 span.breadcrumb-current{color:#FFED91;}
 #blog {
     background: #ffffff;
@@ -1164,7 +1164,7 @@ footer #newsletter{
 }
 footer .widget{
 	margin-bottom: 0px;
-	
+
 }
 footer .widget ul li a{
 	color: #CCC0C0;
@@ -1351,7 +1351,7 @@ button, input, select, textarea {
 
 /* others  */
 div.wpcf7-response-output {
-	margin: 0; 
+	margin: 0;
 	padding: 1.2em 1em;
 }
 .wpcf7-not-valid {
@@ -1499,11 +1499,11 @@ header .open .dropdown-menu{
 */
 
 @media  (max-width: 1200px){
-	
+
 }
 
 @media  (max-width: 991px){
-	
+
 	#widget-area {
 		 margin: 40px 0 0;
 	}
@@ -1517,12 +1517,12 @@ header .open .dropdown-menu{
 	footer .widget-title {
 		margin-bottom: 15px;
 	}
-	
-	
+
+
 }
 
 @media  (max-width: 768px){
-	
+
 	#widget-area #searchform {
 		position: relative;
 		max-height: 50px;
@@ -1530,14 +1530,14 @@ header .open .dropdown-menu{
 	}
 	.index-header {
 	}
-	
+
 	.dropdown-menu > li > a, .dropdown-menu > li{
 		text-decoration: none;
 		line-height: inherit !important;
 		padding-left: 0px !important;
 		margin-left: 0px !important;
 	}
-	
+
 }
 
 @media  (max-width: 480px){

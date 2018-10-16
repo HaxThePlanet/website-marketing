@@ -289,7 +289,7 @@ header .brand{
 	padding-right: 50px;
 }
 header .brand img{
-	width: 159px;
+	width: 250px;
 	-webkit-transition: width .5s;
 	-moz-transition: width .5s;
 	-ms-transition: width .5s;
@@ -325,7 +325,7 @@ header .navbar-default .navbar-nav li a{
 	line-height: 70px;
 }
 .fixed_top .brand img{
-	width: 120px;
+	width: 230px;
 }
 .fixed_top.navbar-default .navbar-nav li a{
 	color: #333333;

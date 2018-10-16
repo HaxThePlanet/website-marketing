@@ -23,7 +23,7 @@
         padding-right: 10px;
     }
     header .brand img{
-        max-width: 120px;
+        max-width: 250px;
     }
     header .social{
         display: none;
@@ -47,7 +47,7 @@
         line-height: 70px;
     }
     header .brand img{
-        max-width: 120px;
+        max-width: 250px;
         padding-left: 15px;
     }
     header .navbar-toggle{
