@@ -671,6 +671,10 @@ header .social li a{
 }
 .about img{
 	width: 100%;
+    -webkit-filter: sepia(.7);
+    -moz-filter: sepia(.7);
+    -ms-filter: sepia(.7);
+    filter: sepia(.7);
 	-webkit-transition: transform .8s;
 	-moz-transition: transform .8s;
 	-ms-transition: transform .8s;
