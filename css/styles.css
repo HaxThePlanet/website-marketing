@@ -1205,9 +1205,8 @@ header .social li a{
 .error
 {
     background-color: #f5f5f5;
-    padding: 180px 0 0 0;
+    padding: 120px 0 80px 0;
     overflow:auto;
-    padding-bottom: 150px;
 }
 .error .btn{
     margin: 10px 0 20px;
