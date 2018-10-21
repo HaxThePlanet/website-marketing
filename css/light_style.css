@@ -393,236 +393,7 @@ header .social li a{
 	}
 }
 
-
-/*-- 3.banner css
-======================================== --*/
-.banner{
-	background-color: rgba(0,0,0,1);
-	background-position: center top;
-	background-repeat: no-repeat;
-	height: 100vh;
-}
-.bg-1{
-	background: #ffffff url(../images/banner_bg_1.jpg) center top no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-}
-.bg-2{
-	background-image: url(../images/banner_bg_2.jpg);
-	background-attachment: fixed;
-	background-size: cover;
-}
-.bg-3{
-	background-image: url(../images/banner_bg_3.jpg);
-	background-attachment: fixed;
-	background-size: cover;
-}
-.static{
-	background-attachment: scroll;
-}
-.no_bg{
-	background: none;
-}
-.no_bg .container{
-	width: 100%;
-	padding: 0;
-	background-color: rgba(0,0,0,.7);
-}
-.banner .carousel-inner{
-	height: 100vh;
-	min-height: 480px;
-	background: rgba(0,0,0,.7);
-}
-.banner .carousel-inner .item{
-	width: 100%;
-	height: 100%;
-}
-.banner .container{
-	height: 100%;
-}
-.banner .banner_content{
-	padding: 50px 30px;
-	position: relative;
-	left: 0;
-	top: 50%;
-	-webkit-transform: translateY(-50%);
-	-moz-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
-}
-.banner .slide .carousel-control{
-	width: 50px;
-	height: 50px;
-	position: absolute;
-	background-color: rgba(0,0,0,.5);
-	opacity: 1;
-	top: 50%;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	-ms-border-radius: 5px;
-	border-radius: 5px;
-	-webkit-transform: translateY(-50%);
-	-moz-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
-	text-align: center;
-	background-image: none;
-}
-.banner .slide .carousel-control:hover,
-.banner .slide .carousel-control:focus{
-	background-color: rgba(0,0,0,.8)!important;
-}
-.banner .slide .carousel-control .fa{
-	font-size: 30px;
-	line-height: 50px;
-	color: #ffffff;
-}
-.banner .slide .carousel-control.left{
-	left: 50px;
-}
-.banner .slide .carousel-control.right{
-	right: 50px;
-}
-.banner .carousel-indicators{
-	width: 100%;
-	left: 0;
-	margin-left: 0;
-	padding-left: 50px;
-	text-align: left;
-}
-.banner .carousel-indicators li{
-	width: 3px;
-	height: 20px;
-	background-color: #ffffff;
-	border: none;
-	margin: 0 3px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	-ms-border-radius: 5px;
-	border-radius: 5px;
-	-webkit-transition: all .5s;
-	-moz-transition: all .5s;
-	-ms-transition: all .5s;
-	transition: all .5s;
-	opacity: .8;
-}
-.banner .carousel-indicators li.active{
-	height: 30px;
-	opacity: .8;
-}
-.banner .carousel-indicators li:not(.active):hover{
-	height: 25px;
-	opacity: .8;
-}
-.banner h1{
-	font-size: 70px;
-	line-height: 1;
-	color: #ffffff;
-	font-weight: 700;
-	text-transform: capitalize;
-	margin-bottom: 15px;
-	letter-spacing: 2px;
-	text-align: center;
-}
-.banner h6{
-	font-size: 20px;
-	color: #ffffff;
-	text-transform: capitalize;
-	font-weight: 400;
-	letter-spacing: 3px;
-	margin-bottom: 25px;
-	text-align: center;
-}
-.banner h5{
-	text-align: center;
-}
-.banner .btn{
-	background: #d6b161;
-	color: #333333!important;
-}
-.banner .hvr-trim:before{
-	border-color: #555555;
-}
-
-
-/*-- 4.purchase css
-======================================== --*/
-.purchase{
-	background-color: #f5f5f5;
-	padding: 50px 0 40px;
-}
-.purchase h3{
-	font-size: 18px;
-	font-weight: 500;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	margin: 0 0 5px;
-}
-.purchase .btn{
-	margin-top: 20px;
-}
-/*-- 5.about_us css
-======================================== --*/
-.about_us{
-	padding: 30px 0 10px;
-	background-color: #f5f5f5;
-}
-.about_us .col-sm-6{
-	margin-bottom: 60px;
-}
-.about_us .top_part{
-	margin-bottom: 30px;
-}
-.about_us .img_container{
-	width: 70px;
-	height: 70px;
-	float: left;
-	border: 2px solid #d6b161 ;
-	padding: 10px;
-	margin-top: 10px;
-}
-.about_us .inner_container{
-	width: 100%;
-	height: 100%;
-	border: 2px dotted #d6b161 ;
-	position: relative;
-	cursor: pointer;
-	-webkit-transition: all .5s ease;
-	-moz-transition: all .5s ease;
-	-ms-transition: all .5s ease;
-	transition: all .5s ease;
-}
-/* .about_us .inner_container{
-	background: url(../images/love.png) center center no-repeat;
-}
-.about_us .col-sm-4:nth-of-type(2) .inner_container{
-	background: url(../images/link.png) center center no-repeat;
-}
-.about_us .col-sm-4:nth-of-type(3) .inner_container{
-	background: url(../images/link.png) center center no-repeat;
-} */
-.about_us .top_part h3{
-	font-size: 18px;
-	line-height: 24px;
-	text-transform: uppercase;
-	font-weight: 500;
-	letter-spacing: 1px;
-	float: left;
-    margin-top: 12px;
-	padding-left: 20px;
-}
-.about_us .top_part h3 span{
-	font-size: 12px;
-	/* line-height: 2; */
-	color: #7e7e7e;
-	font-weight: 400;
-	/* text-transform: capitalize; */
-	display: block;
-}
-
-
-/*-- 6.about css
-======================================== --*/
+/*-- 6.about css --*/
 
 .about{
 	background-color: #f5f5f5;
@@ -665,6 +436,48 @@ header .social li a{
 .about .content{
 	position: relative;
 }
+
+.about .highlights{
+    margin-top: 30px;
+}
+.about .highlights .img_container{
+	width: 70px;
+	height: 70px;
+	float: left;
+	border: 2px solid #d6b161 ;
+	padding: 10px;
+	margin-top: 10px;
+}
+.about .highlights .inner_container{
+	width: 100%;
+	height: 100%;
+	border: 2px dotted #d6b161 ;
+    text-align: center;
+	position: relative;
+	cursor: pointer;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	transition: all .5s ease;
+}
+.about .highlights h3{
+	font-size: 18px;
+	line-height: 24px;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: 1px;
+	float: left;
+    margin-top: 12px;
+	padding-left: 20px;
+}
+.about .highlights h3 span{
+	font-size: 12px;
+	/* line-height: 2; */
+	color: #7e7e7e;
+	font-weight: 400;
+	/* text-transform: capitalize; */
+	display: block;
+}
 .about .img_container{
 	overflow: hidden;
 	background: #ffffff;
@@ -700,9 +513,7 @@ header .social li a{
 	border: 8px solid #d6b161 ;
 }
 
-
-/*-- 7.wallets css
-======================================== --*/
+/*-- 7.wallets css --*/
 .wallets{
 	padding: 80px 0;
 	background: #ffffff;
