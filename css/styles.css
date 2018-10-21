@@ -10,6 +10,7 @@
 7.downloads css
 8.contact css
 9.footer css
+10.error css
 */
 
 /* 0.reset css */
@@ -1197,6 +1198,19 @@ header .social li a{
 	color: #d6b161;
 	font-weight: 400;
 	text-transform: capitalize;
+}
+
+/* 10. error css */
+
+.error
+{
+    background-color: #f5f5f5;
+    padding: 180px 0 0 0;
+    overflow:auto;
+    padding-bottom: 150px;
+}
+.error .btn{
+    margin: 10px 0 20px;
 }
 
 /* media query css */
