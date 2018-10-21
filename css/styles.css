@@ -173,21 +173,6 @@ p{
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
 }
-.wpcf7-submit.btn {
-    width: 150px;
-    font-size: 13px;
-    line-height: 45px;
-    color: #323232;
-    font-weight: 500;
-    background-color: #ffffff;
-    border: none;
-    border-radius: 0;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    padding: 0;
-    position: relative;
-    z-index: 2;
-}
 
 /* custom animations */
 @-webkit-keyframes moveUp{
